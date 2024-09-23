@@ -1,0 +1,97 @@
+[
+   {
+      "id": 1,
+      "slug": "all",
+      "name": "Popular"
+   },
+   {
+      "id": 2,
+      "slug": "action",
+      "name": "Action"
+   },
+   {
+      "id": 3,
+      "slug": "adventure",
+      "name": "Adventure"
+   },
+   {
+      "id": 4,
+      "slug": "animation",
+      "name": "Animation"
+   },
+   {
+      "id": 5,
+      "slug": "comedy",
+      "name": "Comedy"
+   },
+   {
+      "id": 6,
+      "slug": "crime",
+      "name": "Crime"
+   },
+   {
+      "id": 7,
+      "slug": "documentary",
+      "name": "Documentary"
+   },
+   {
+      "id": 8,
+      "slug": "drama",
+      "name": "Drama"
+   },
+   {
+      "id": 9,
+      "slug": "family",
+      "name": "Family"
+   },
+   {
+      "id": 10,
+      "slug": "fantasy",
+      "name": "Fantasy"
+   },
+   {
+      "id": 11,
+      "slug": "history",
+      "name": "History"
+   },
+   {
+      "id": 12,
+      "slug": "horror",
+      "name": "Horror"
+   },
+   {
+      "id": 13,
+      "slug": "music",
+      "name": "Music"
+   },
+   {
+      "id": 14,
+      "slug": "mystery",
+      "name": "Mystery"
+   },
+   {
+      "id": 15,
+      "slug": "romance",
+      "name": "Romance"
+   },
+   {
+      "id": 16,
+      "slug": "sci-fi",
+      "name": "Sci-Fi"
+   },
+   {
+      "id": 17,
+      "slug": "thriller",
+      "name": "Thriller"
+   },
+   {
+      "id": 18,
+      "slug": "war",
+      "name": "War"
+   },
+   {
+      "id": 19,
+      "slug": "western",
+      "name": "Western"
+   }
+]
