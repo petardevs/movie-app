@@ -3,6 +3,7 @@ import Navbar from "./components/UI/Navbar";
 import Sidebar from "./components/UI/Sidebar";
 import SortSelector from "./components/SortSelector";
 import MovieHeading from "./components/MovieHeading";
+import MovieGrid from "./components/UI/MovieGrid";
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
                <MovieHeading></MovieHeading>
                <Box></Box>
             </Flex>
+            <MovieGrid></MovieGrid>
           </Box>
         </GridItem>
       </Grid>
