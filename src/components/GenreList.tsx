@@ -3,14 +3,15 @@ import { Button, List, ListItem } from "@chakra-ui/react";
 import genres from "../data/genres.json";
 
 const GenreList = () => {
-  const [selectedGenreId, setSelectedGenreId] = useState(0);
+  const [selectedGenreId, setSelectedGenreId] = useState(1);
 
   return (
-    <List>
+    <List>  
       {genres.map((genre) => (
         <ListItem
           key={genre.id}
           onClick={() => setSelectedGenreId(genre.id)}
+          _hover={{bg: "#ffffff10"}}
           bg={selectedGenreId === genre.id ? "#ff000030" : "transparent"}
           color={selectedGenreId === genre.id ? "white" : "black"}
           borderLeft={
@@ -21,6 +22,7 @@ const GenreList = () => {
           padding={"4px"}
           paddingLeft={"10px"}
           borderRadius={4}
+          cursor={"pointer"}
         >
           <Button
             variant={"link"}

@@ -1,6 +1,8 @@
 import { Grid, GridItem, Show, Flex, Box } from "@chakra-ui/react";
 import Navbar from "./components/UI/Navbar";
 import Sidebar from "./components/UI/Sidebar";
+import SortSelector from "./components/SortSelector";
+import MovieHeading from "./components/MovieHeading";
 
 function App() {
   return (
@@ -24,8 +26,12 @@ function App() {
           </GridItem>
         </Show>
         <GridItem area="main">
-          <Box paddingLeft={2}>
-            <Flex gap={5} marginBottom={5}></Flex>
+          <Box padding={2} >
+            <Flex gap={5} marginBottom={5} justifyContent={"space-between"}>
+               <SortSelector />
+               <MovieHeading></MovieHeading>
+               <Box></Box>
+            </Flex>
           </Box>
         </GridItem>
       </Grid>
