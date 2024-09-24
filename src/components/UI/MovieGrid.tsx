@@ -7,6 +7,7 @@ const MovieGrid = () => {
       columns={{ sm: 1, md: 2, lg: 3, xl: 5 }}
       padding="10px"
       spacing={6}
+      overflow={"scroll"}
     >
       <MovieCard></MovieCard>
       <MovieCard></MovieCard>
